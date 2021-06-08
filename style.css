@@ -1,0 +1,69 @@
+body{
+  font-family: 'Cairo', sans-serif;
+}
+/* banar */
+.banar {
+  background: url(Images/bg-1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  min-height: 50vh;
+}
+.banar .overlay {
+  
+  background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.banar .lib-info {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  width: 90%;
+}
+.banar .lib-info h4 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+.banar .lib-info p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 30px;
+}
+hr{
+  background: blue;
+  height: 4px !important;
+}
+h3{
+  color: red;
+  margin-inline: 5px!important;
+  font-size: 10px;
+  font-weight: bold;
+}
+h4{
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+.lib-info p{
+  font-size: 18px!important;
+  color: white;
+  font-weight: bold;
+  opacity: 0.5;
+}
